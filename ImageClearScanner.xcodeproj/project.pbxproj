@@ -14,6 +14,23 @@
 		0692B9D821B7E67B0064593B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0692B9D621B7E67B0064593B /* LaunchScreen.storyboard */; };
 		0692B9E321B7E67B0064593B /* ImageClearScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0692B9E221B7E67B0064593B /* ImageClearScannerTests.swift */; };
 		0692B9EE21B7E67B0064593B /* ImageClearScannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0692B9ED21B7E67B0064593B /* ImageClearScannerUITests.swift */; };
+		06A94A3A21BE6F6300CD7CB0 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A94A3921BE6F6300CD7CB0 /* opencv2.framework */; };
+		06A94A4821BF928300CD7CB0 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A94A4721BF928300CD7CB0 /* CoreImage.framework */; };
+		06A94A4A21BF928B00CD7CB0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A94A4921BF928B00CD7CB0 /* QuartzCore.framework */; };
+		06A94A4C21BF929200CD7CB0 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A94A4B21BF929200CD7CB0 /* ImageIO.framework */; };
+		06A94A4E21BF929D00CD7CB0 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A94A4D21BF929D00CD7CB0 /* CoreMedia.framework */; };
+		06A94A5021BF92B400CD7CB0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A94A4F21BF92B400CD7CB0 /* AVFoundation.framework */; };
+		06A94A5221BF92BB00CD7CB0 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A94A5121BF92BB00CD7CB0 /* MediaPlayer.framework */; };
+		06A94A7021BF93BB00CD7CB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A94A6F21BF93BB00CD7CB0 /* Foundation.framework */; };
+		06A94B0821BF9CCC00CD7CB0 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 06A94B0721BF9CCB00CD7CB0 /* image.png */; };
+		06A94B0A21BF9CE800CD7CB0 /* image.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 06A94B0921BF9CE700CD7CB0 /* image.jpeg */; };
+		06A94B1C21C003C200CD7CB0 /* OpenCVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 06A94B1B21C003C200CD7CB0 /* OpenCVWrapper.mm */; };
+		06A94B1F21C0048E00CD7CB0 /* ICSGeometry.c in Sources */ = {isa = PBXBuildFile; fileRef = 06A94B1E21C0048E00CD7CB0 /* ICSGeometry.c */; };
+		06A94B2221C004F600CD7CB0 /* ICSCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A94B2121C004F600CD7CB0 /* ICSCropView.m */; };
+		06A94B2621C0064F00CD7CB0 /* UIImage+fixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A94B2521C0064F00CD7CB0 /* UIImage+fixOrientation.m */; };
+		06A94B2921C0069A00CD7CB0 /* UIImageView+ContentFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A94B2821C0069A00CD7CB0 /* UIImageView+ContentFrame.m */; };
+		06A94B2C21C006E200CD7CB0 /* UIColor+HexRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A94B2B21C006E200CD7CB0 /* UIColor+HexRepresentation.m */; };
+		06A94B4821C181D900CD7CB0 /* ICSCropViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 06A94B4721C181D900CD7CB0 /* ICSCropViewController.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +64,32 @@
 		0692B9E921B7E67B0064593B /* ImageClearScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageClearScannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0692B9ED21B7E67B0064593B /* ImageClearScannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClearScannerUITests.swift; sourceTree = "<group>"; };
 		0692B9EF21B7E67B0064593B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06A94A3921BE6F6300CD7CB0 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		06A94A3D21BE7C1E00CD7CB0 /* ImageClearScanner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImageClearScanner-Bridging-Header.h"; sourceTree = "<group>"; };
+		06A94A4421BE871600CD7CB0 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		06A94A4721BF928300CD7CB0 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		06A94A4921BF928B00CD7CB0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		06A94A4B21BF929200CD7CB0 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		06A94A4D21BF929D00CD7CB0 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		06A94A4F21BF92B400CD7CB0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		06A94A5121BF92BB00CD7CB0 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		06A94A6F21BF93BB00CD7CB0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		06A94B0721BF9CCB00CD7CB0 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		06A94B0921BF9CE700CD7CB0 /* image.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpeg; sourceTree = "<group>"; };
+		06A94B1A21C003C200CD7CB0 /* OpenCVWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCVWrapper.h; sourceTree = "<group>"; };
+		06A94B1B21C003C200CD7CB0 /* OpenCVWrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVWrapper.mm; sourceTree = "<group>"; };
+		06A94B1D21C0048E00CD7CB0 /* ICSGeometry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICSGeometry.h; sourceTree = "<group>"; };
+		06A94B1E21C0048E00CD7CB0 /* ICSGeometry.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ICSGeometry.c; sourceTree = "<group>"; };
+		06A94B2021C004F600CD7CB0 /* ICSCropView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICSCropView.h; sourceTree = "<group>"; };
+		06A94B2121C004F600CD7CB0 /* ICSCropView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICSCropView.m; sourceTree = "<group>"; };
+		06A94B2421C0064F00CD7CB0 /* UIImage+fixOrientation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+fixOrientation.h"; sourceTree = "<group>"; };
+		06A94B2521C0064F00CD7CB0 /* UIImage+fixOrientation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+fixOrientation.m"; sourceTree = "<group>"; };
+		06A94B2721C0069A00CD7CB0 /* UIImageView+ContentFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ContentFrame.h"; sourceTree = "<group>"; };
+		06A94B2821C0069A00CD7CB0 /* UIImageView+ContentFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ContentFrame.m"; sourceTree = "<group>"; };
+		06A94B2A21C006E200CD7CB0 /* UIColor+HexRepresentation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexRepresentation.h"; sourceTree = "<group>"; };
+		06A94B2B21C006E200CD7CB0 /* UIColor+HexRepresentation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexRepresentation.m"; sourceTree = "<group>"; };
+		06A94B4621C181D900CD7CB0 /* ICSCropViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICSCropViewController.h; sourceTree = "<group>"; };
+		06A94B4721C181D900CD7CB0 /* ICSCropViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ICSCropViewController.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +97,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06A94A7021BF93BB00CD7CB0 /* Foundation.framework in Frameworks */,
+				06A94A5221BF92BB00CD7CB0 /* MediaPlayer.framework in Frameworks */,
+				06A94A5021BF92B400CD7CB0 /* AVFoundation.framework in Frameworks */,
+				06A94A4E21BF929D00CD7CB0 /* CoreMedia.framework in Frameworks */,
+				06A94A4C21BF929200CD7CB0 /* ImageIO.framework in Frameworks */,
+				06A94A4A21BF928B00CD7CB0 /* QuartzCore.framework in Frameworks */,
+				06A94A4821BF928300CD7CB0 /* CoreImage.framework in Frameworks */,
+				06A94A3A21BE6F6300CD7CB0 /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +132,7 @@
 				0692B9E121B7E67B0064593B /* ImageClearScannerTests */,
 				0692B9EC21B7E67B0064593B /* ImageClearScannerUITests */,
 				0692B9CB21B7E67A0064593B /* Products */,
+				06A94A3621BE6E5300CD7CB0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +149,20 @@
 		0692B9CC21B7E67A0064593B /* ImageClearScanner */ = {
 			isa = PBXGroup;
 			children = (
+				06A94B0921BF9CE700CD7CB0 /* image.jpeg */,
 				0692B9CD21B7E67A0064593B /* AppDelegate.swift */,
+				06A94B0721BF9CCB00CD7CB0 /* image.png */,
 				0692B9CF21B7E67A0064593B /* ViewController.swift */,
+				06A94B4621C181D900CD7CB0 /* ICSCropViewController.h */,
+				06A94B4721C181D900CD7CB0 /* ICSCropViewController.mm */,
+				06A94B2321C0060D00CD7CB0 /* ICS Categories */,
+				06A94B1921C003AC00CD7CB0 /* OpenCV */,
+				06A94A4421BE871600CD7CB0 /* PrefixHeader.pch */,
 				0692B9D121B7E67A0064593B /* Main.storyboard */,
 				0692B9D421B7E67B0064593B /* Assets.xcassets */,
 				0692B9D621B7E67B0064593B /* LaunchScreen.storyboard */,
 				0692B9D921B7E67B0064593B /* Info.plist */,
+				06A94A3D21BE7C1E00CD7CB0 /* ImageClearScanner-Bridging-Header.h */,
 			);
 			path = ImageClearScanner;
 			sourceTree = "<group>";
@@ -123,6 +183,47 @@
 				0692B9EF21B7E67B0064593B /* Info.plist */,
 			);
 			path = ImageClearScannerUITests;
+			sourceTree = "<group>";
+		};
+		06A94A3621BE6E5300CD7CB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06A94A6F21BF93BB00CD7CB0 /* Foundation.framework */,
+				06A94A5121BF92BB00CD7CB0 /* MediaPlayer.framework */,
+				06A94A4F21BF92B400CD7CB0 /* AVFoundation.framework */,
+				06A94A4D21BF929D00CD7CB0 /* CoreMedia.framework */,
+				06A94A4B21BF929200CD7CB0 /* ImageIO.framework */,
+				06A94A4921BF928B00CD7CB0 /* QuartzCore.framework */,
+				06A94A4721BF928300CD7CB0 /* CoreImage.framework */,
+				06A94A3921BE6F6300CD7CB0 /* opencv2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		06A94B1921C003AC00CD7CB0 /* OpenCV */ = {
+			isa = PBXGroup;
+			children = (
+				06A94B1A21C003C200CD7CB0 /* OpenCVWrapper.h */,
+				06A94B1B21C003C200CD7CB0 /* OpenCVWrapper.mm */,
+				06A94B1D21C0048E00CD7CB0 /* ICSGeometry.h */,
+				06A94B1E21C0048E00CD7CB0 /* ICSGeometry.c */,
+				06A94B2021C004F600CD7CB0 /* ICSCropView.h */,
+				06A94B2121C004F600CD7CB0 /* ICSCropView.m */,
+			);
+			path = OpenCV;
+			sourceTree = "<group>";
+		};
+		06A94B2321C0060D00CD7CB0 /* ICS Categories */ = {
+			isa = PBXGroup;
+			children = (
+				06A94B2421C0064F00CD7CB0 /* UIImage+fixOrientation.h */,
+				06A94B2521C0064F00CD7CB0 /* UIImage+fixOrientation.m */,
+				06A94B2721C0069A00CD7CB0 /* UIImageView+ContentFrame.h */,
+				06A94B2821C0069A00CD7CB0 /* UIImageView+ContentFrame.m */,
+				06A94B2A21C006E200CD7CB0 /* UIColor+HexRepresentation.h */,
+				06A94B2B21C006E200CD7CB0 /* UIColor+HexRepresentation.m */,
+			);
+			path = "ICS Categories";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +294,7 @@
 				TargetAttributes = {
 					0692B9C921B7E67A0064593B = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					0692B9DD21B7E67B0064593B = {
 						CreatedOnToolsVersion = 10.1;
@@ -229,8 +331,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06A94B0821BF9CCC00CD7CB0 /* image.png in Resources */,
 				0692B9D821B7E67B0064593B /* LaunchScreen.storyboard in Resources */,
 				0692B9D521B7E67B0064593B /* Assets.xcassets in Resources */,
+				06A94B0A21BF9CE800CD7CB0 /* image.jpeg in Resources */,
 				0692B9D321B7E67A0064593B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +360,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06A94B2621C0064F00CD7CB0 /* UIImage+fixOrientation.m in Sources */,
+				06A94B2221C004F600CD7CB0 /* ICSCropView.m in Sources */,
 				0692B9D021B7E67A0064593B /* ViewController.swift in Sources */,
+				06A94B1F21C0048E00CD7CB0 /* ICSGeometry.c in Sources */,
 				0692B9CE21B7E67A0064593B /* AppDelegate.swift in Sources */,
+				06A94B1C21C003C200CD7CB0 /* OpenCVWrapper.mm in Sources */,
+				06A94B4821C181D900CD7CB0 /* ICSCropViewController.mm in Sources */,
+				06A94B2C21C006E200CD7CB0 /* UIColor+HexRepresentation.m in Sources */,
+				06A94B2921C0069A00CD7CB0 /* UIImageView+ContentFrame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,7 +543,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VFH3G967RD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = "/Users/cbk2604/Documents/Working Projects/ImageClearScanner/ImageClearScanner/PrefixHeader.pch";
 				INFOPLIST_FILE = ImageClearScanner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -440,6 +558,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cbk.ImageClearScanner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ImageClearScanner/ImageClearScanner-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -449,7 +569,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VFH3G967RD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = "/Users/cbk2604/Documents/Working Projects/ImageClearScanner/ImageClearScanner/PrefixHeader.pch";
 				INFOPLIST_FILE = ImageClearScanner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -457,6 +584,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cbk.ImageClearScanner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ImageClearScanner/ImageClearScanner-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
